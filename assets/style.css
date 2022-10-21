@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    }
+
+html {
+    background-color:#d3d3d2;
+    font-family: 'Archivo', Arial, serif;
+}
+
+a {
+    text-decoration:none;
+}
+
+h1 {
+    color:#ccff66;
+    font-size:88px;
+    background-color:black;
+    font-family: 'Archivo Black', Arial, serif;
+    text-align:left;
+    display:inline;
+}
+
+/* ATTEMPT AT NAV */
+
+header {
+    background-color:black;      
+    position:sticky;
+    top:0;
+    padding:5px 0 5px 10px;
+}
+
+header ul {list-style: none;
+    display: inline;
+    float: right;
+    margin-top: 10px;
+}
+
+header ul li, header ul li a {
+  display:inline;
+  color:#ccff66;
+  font-size:32px;
+  font-family: 'Archivo Black', Arial, serif;
+  padding:15px 15px 15px 0;
+}
+
+header li {
+    float:right;
+   }
+
+h2 { 
+    color:#9966FF;
+    background-color:black;
+    font-size:48px;
+    font-family: 'Archivo Black', Arial, serif;
+}
+
+p {
+    font-size: 24px;
+    line-height:150%;
+    margin: 0 200px 20px;
+    font-family: 'Archivo', Arial, serif;
+}
+
+img {
+    width:100%;
+    margin:0;
+    display:block;
+}
+
+.contact-form {
+    text-align:center;
+    font-size:24px;
+    font-family: 'Archivo Black', Arial, serif;
+    
+}
+
+input[type="submit" i] {
+    text-align:center;
+    font-size:24px;
+    font-family: 'Archivo Black', Arial, serif;
+    padding:5px;
+}
+
+
+
+form {
+    margin:45px;
+}
+
+input[type=text] {
+    padding:5px;
+    margin-right:40px;
+  }
+
+footer {
+    position:aboslute;
+    bottom:0;
+    left: 50%;
+    right: 50%;
+    margin:30px 0;
+    font-size:18px;
+    text-align:center;
+    
+}
